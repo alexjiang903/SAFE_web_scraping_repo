@@ -35,7 +35,7 @@ async function runWebScraper() {
         await page.type('input[name="Email"]', USERNAME, { delay: 100 });
         await page.type('input[name="Password"]', PASSWORD, { delay: 100 });
         await page.click('input[value="Sign In"]');
-        await page.waitForSelector('title',{timeout: 30000}); //wait for the "Welcome Co op" title to be visible
+        await page.waitForSelector('title',{timeout: 30000}); //wait for Welcome page to load
         
         console.log("Successful login to XXXX. Fetching PDF:");
         
