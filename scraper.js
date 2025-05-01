@@ -1,7 +1,7 @@
 //Web scraper for Q2
 const LOGIN_URL = "https://XXXXXXXXXX" //redacted login URL to not reveal company name
 const USERNAME = "coop@XXXXXXXXXX" //redacted username to not reveal company name
-const PASSWORD = "TheTest139"
+const PASSWORD = "YYYYYYYYY"
 
 const puppeteer = require('puppeteer');
 const fs = require('fs'); //write the saved file to local Compiled_Reports folder
